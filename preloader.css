@@ -1,0 +1,54 @@
+
+/* Style 9 Starts */
+.wrapper9 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    perspective: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dot9 {
+    width: 30px;
+    height: 30px;
+    background-color: #ff006e;
+    animation: effect9 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    border-radius: 50%;
+   
+  }
+  
+  .dot91 {
+    background-color: #8338ec;
+    animation: effect9 2s 400ms cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+  
+  .dot92 {
+    background-color: #ffbe0b;
+    animation: effect9 2s 600ms cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+  
+  .dot93 {
+    background-color: #3a86ff;
+    animation: effect9 2s 800ms cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+  
+  @keyframes effect9 {
+    0%,
+    100% {
+      opacity: 0;
+      transform: translate3d(0, 100px, 0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(0, -20px, 0);
+    }
+    75% {
+      transform: translate3d(0, 10px, 0);
+    }
+    90% {
+      transform: translate3d(0, -5px, 0);
+    }
+  }
