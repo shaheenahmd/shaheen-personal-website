@@ -431,14 +431,17 @@ footer .copy{
        
     }
     footer{
+        height: 300px;
         padding: 0rem 10%;
         align-items: center;
         margin-top: 5rem;
         margin-left: 0px;
     }
 
-    footer .navlist a{
+    footer .navlist {
     font-size: 0.8rem;
+    place-items: left;
+    flex-direction: column;
     }
     footer .social-links i{
         font-size: 0.9rem;
