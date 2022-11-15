@@ -390,14 +390,13 @@ footer .copy{
     top: -400px;
     left: 0;
     right: 0;
-    display: flex;
     flex-direction: column;
     text-align: center;
     background: whitesmoke;
     transition: 0.4s;
    }
-   header .navlist .active{
-    top: 86px;
+   header .navlist.active{
+    top: 75px;
    }
    header .navlist a{
     display: block;
@@ -422,7 +421,11 @@ footer .copy{
     .about {
         grid-template-columns: repeat(1,1fr);
     }
-
+    .about-image  {
+       
+        order: 2;
+    }
+ 
     .portfolio-container {
         grid-template-columns: repeat(1, 1fr);
        
