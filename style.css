@@ -34,7 +34,6 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 1001;
-    /* padding: 20px 250px; */
     padding: 20px 15%;
     box-shadow: rgba(33,35, 38, 0.1) 0px 10px 10px -10px;
     background-color:whitesmoke ;
@@ -65,11 +64,19 @@ header{
     cursor: pointer;
     display: none;
 }
+header .social i{
+    font-size: 1.2rem;
+    color: var(--text-color);
+   padding-left: 1rem;
+}
 body{
     background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);;
 }
 
 
+
+
+/* home section ---------------------------------------------*/
 .home{
     width: 100%;
     min-height: 100vh;
@@ -108,12 +115,12 @@ margin-bottom: 25px;
 .home-text p{
     max-width: 100%;
     width: 430px;
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     color: #717171;
     margin-bottom: 20px;
 }
 .btn{
-    display: inline-block;
+    /* display: inline-block; */
     background-color: var(--hover);
     color:#fff;
     border-radius: 20px;
@@ -169,6 +176,12 @@ margin-bottom: 25px;
     width: 550px;
     height: auto;
 }
+.skills h2{
+    text-align: center;
+    font-size: var(--h2-font);
+    
+}
+
 
 
 /* services section ----------------------------------------*/
@@ -184,7 +197,7 @@ margin-bottom: 25px;
 }
 .services h2{
     margin-top: 10px;
-    font-size: var(--h2-font);
+   font-size: var(--h2-font);
 }
 
 .service-container{
@@ -404,13 +417,37 @@ footer .copy{
     }
     .home .social {
         bottom: 360px;
-        right: 50%;
-        left: 50%;
-     
        
     }
+    .about {
+        grid-template-columns: repeat(1,1fr);
+    }
 
+    .portfolio-container {
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    footer{
+        padding: 0rem 10%;
+        align-items: center;
+        margin-top: 5rem;
+        margin-left: 0px;
+    }
+
+    footer .navlist a{
+    font-size: 0.9rem;
+    }
+    footer .social-links i{
+        font-size: 1rem;
+    }
 }
+   
+
+
+    
+
+
+
 
 
 
