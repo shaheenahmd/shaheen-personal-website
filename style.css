@@ -478,20 +478,13 @@ footer .quick-links a{
        
     }
     footer{
-        height: 300px;
+        height: 200px;
         padding: 0rem 10%;
         margin-top: 5rem;
         margin-left: 0px;
-    }
-
-    footer .navlist {
-    font-size: 0.8rem;
-    flex-direction: column;
-    text-align: left;
-    }
-    footer .navlist a{
-        text-align: left;
-        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
   
     footer .social-links i{
@@ -528,7 +521,11 @@ footer .quick-links a{
     .row p{
         font-size: 0.9rem;
     }
-}
+    footer .quick-links a{
+      font-size: 0.8rem;
+    }
+    }
+
 
    
 
