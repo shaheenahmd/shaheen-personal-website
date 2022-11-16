@@ -513,7 +513,15 @@ footer .quick-links a{
     }
     .home-text p{
         font-size: 1.8rem;
-}
+    }
+    .about span {
+        margin-bottom: 20px;
+        
+    }
+
+    .row h3{
+        font-size: 1rem;
+    }
 }
 
    
