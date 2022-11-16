@@ -25,6 +25,14 @@ section{
     --p-font:1.1rem;
 
 }
+
+
+body{
+    /* background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);; */
+    background: hsla(186, 33%, 94%, 1);
+}
+
+
 header{
     width: 100%;
     position: fixed;
@@ -72,10 +80,7 @@ header .social i{
     color: var(--text-color);
    padding-left: 1rem;
 }
-body{
-    /* background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);; */
-    background: hsla(186, 33%, 94%, 1);
-}
+
 
 
 
@@ -92,7 +97,6 @@ body{
     z-index: 0;
     /* background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);; */
 
-    /* background: #1a1a1a; */
    
 }
 .home-image img{
@@ -106,49 +110,68 @@ body{
     font-weight: 500;
     margin-bottom: 15px;
     color: var(--text-color);
-    /* color: whitesmoke; */
 }
+
 .home-text h1{
 font-size: var(--big-font);
 line-height: 1.2;
+margin-bottom: 20px;
 color: var(--text-color);
-margin-bottom: 25px;
-/* color: whitesmoke; */
+
 }
+
 
 .home-text p{
     max-width: 100%;
     width: 430px;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: #717171;
     margin-bottom: 20px;
-}
-.btn{
-    /* display: inline-block; */
-    background-color: var(--hover);
-    color:#fff;
-    border-radius: 20px;
-    padding: 8px 25px;
-}
-.btn:hover{
-    transform: scale(1.1);
-    background: hsl(260,100%,55%);
-    transition: 0.3s ease;
-    box-shadow: 0 5px 15px 2px rgba(63 44 / 18%);
-    margin-bottom: 15px;
-}
+} 
 
-.home .social{
-    font-size: 1.7rem;
-    position: absolute;
-    bottom:120px;
-    display: flex
+.home-text .btn{
+    background: #ffa200;
+    color: var(--text-color);
+    outline: none;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500px;
+    line-height: 24px;
+    cursor: pointer;
    
 }
-.home .social i{
-    padding-right: 2rem;
-    color: var(--text-color);
+.home-text .btn:hover{
+    background:#d86807;
+    color: #fff;
+    transition: .4s ease;
+
 }
+
+.home .social a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    
+}
+  
+.home .social a:hover{
+    background-color: #ffa200;
+    transition: .3s ease;
+}
+
+
+
+
 
 
 /* about section -------------------------------------------------------------------------*/
@@ -181,12 +204,13 @@ margin-bottom: 25px;
     width: 550px;
     height: auto;
 }
+
+/* skills ----------------------------------*/
 .skills h2{
     text-align: center;
     font-size: var(--h2-font);
     
 }
-
 
 
 /* services section ----------------------------------------*/
@@ -214,7 +238,7 @@ margin-bottom: 25px;
     text-align: center;
 }
 .row{
-    padding: 40px 40px;
+    padding: 30px 30px;
     background:whitesmoke;
     border-radius: 10px;
     cursor: pointer;
@@ -222,8 +246,12 @@ margin-bottom: 25px;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
-.row .icon{
+.row i{
     margin-bottom: 15px;
+    font-size: 2rem;
+    background-color: #ffa200;
+    padding: 10px;
+   border-radius: 5px;
    
 }
 .row h3{
@@ -241,6 +269,7 @@ margin-bottom: 25px;
     transform: scale(1.05);
     border-bottom: 5px solid var(--hover);
     transition: 0.4s ease;
+    box-shadow: 0 0 0 1;
 }
 
 
@@ -261,84 +290,75 @@ margin-bottom: 25px;
 }
 .portfolio-container{
     display: grid;
-    /* grid-template-columns: repeat(auto-fit,minmax(350px,auto)); */
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
     grid-gap: 4rem;
     align-items: center;
     justify-content: center;
     margin-top: 4rem;
+    
    
 }
-.box{
-    height: 300px;
-    width: 100%;
-    border-radius: 0px;
-    transition: all 0.8s;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+.rows{
     position: relative;
+    overflow: hidden;
+    border-radius: 8px;
     cursor: pointer;
-   
-}
-.box-one{
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/whalesin.jpg) no-repeat left;
-  /* background-size: cover; */
-  background-size: 650px;
-}
-.box-one:hover{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/whalesin.jpg) no-repeat right;
-    align-items: center;
-    /* background-size: cover; */
-    background-size: 700px;
-  }
-
-
-.box-two{
-background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/shintech.jpg) no-repeat left;
-/* background-size: cover; */
-background-size: 650px;
-}
-.box-two:hover{
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/shintech.jpg) no-repeat right;
-    /* align-items: center; */
-    background-size: 700px;
+  
   
 }
+.rows img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    height: 300px;
 
-.box-three{
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/hospital.jpg) no-repeat center left;
-    background-size: 500px;
-    }
-.box-three:hover{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/hospital.jpg) no-repeat  center right;
-    /* background-size: cover; */
-    background-size: 600px;
 }
-
-.box-four{
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/ecommerce.jpg) no-repeat left;
-    background-size: 500px;
-    }
-.box-four:hover{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/ecommerce.jpg) no-repeat right;
-    background-size: 600px;
+.rows .layer{
+   width: 100%;
+   height: 0%;
+   background: linear-gradient(rgba(0,0,0,0.8),#717171);
+   position: absolute;
+   left: 0;
+   bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 40px;
+  transition: 0.4s;
+  color: #fff;
 }
-
-
-.inner{
-    position: absolute;
-    bottom: 15px;
-    right: 30px;
-    padding: 8px 15px;
-    border-radius: 5px;
-   
+.rows .layer h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
-
-.inner button{
-    padding: 3px 8px;
-    border-radius: 5px;
-    border: none;
-    background-color: #ffa200;
+.rows .layer p{
+    font-size: var(--p-font);
+}
+.rows .layer a{
+    color: #ffa200;
+    background-color: #fff;
+    /* padding: 2px 8px; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.rows:hover img{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.rows:hover .layer{
+    height: 100%;
 }
 
 
@@ -350,7 +370,8 @@ footer {
    padding-top: 50px 0;
    height: 180px;
    width: 100%;
-   background-color:whitesmoke ;
+   background-color:var(--text-color);
+   color: #fff;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -360,10 +381,23 @@ footer {
 footer .social-links i{
     font-size: 1.5rem;
     padding-right: 1rem;
-    color: var(--text-color);
+    color: #fff;
+    border-radius: 50%;
+    transform: translateY(1.5);
+}
+footer .navlist li a{
+    color: #fff;
 }
 footer .copy{
     font-size: 13px;
+}
+footer .quick-links{
+    display: flex;
+    
+}
+footer .quick-links a{
+    color: #fff;
+    margin-left: 20px;
 }
 
 
@@ -419,15 +453,15 @@ footer .copy{
 @media (max-width:950px){
     .home{
         grid-template-columns:1fr;
-        text-align: center;
         gap: 2rem;
+        text-align: center;
       
         
     }
     .home-text p{
         width: 100%;
     }
-    .home .social {
+    .home .social i {
         bottom: 360px;
        
     }
@@ -453,10 +487,15 @@ footer .copy{
     footer .navlist {
     font-size: 0.8rem;
     flex-direction: column;
+    text-align: left;
+    }
+    footer .navlist a{
+        text-align: left;
+        margin-bottom: 20px;
     }
   
     footer .social-links i{
-        font-size: 0.9rem;    
+        font-size: 1.5rem;    
     }
     .logo img {
         height: 1.6rem;
