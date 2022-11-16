@@ -518,12 +518,15 @@ footer .quick-links a{
         text-align: center;
     }
     .about span {
-        margin-bottom: 25px;
-        
+        margin-bottom: 5px;
+ 
     }
 
     .row h3{
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+    .row p{
+        font-size: 0.9rem;
     }
 }
 
