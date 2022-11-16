@@ -514,8 +514,11 @@ footer .quick-links a{
     .home-text p{
         font-size: 1.8rem;
     }
+    .about-text{
+        text-align: center;
+    }
     .about span {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         
     }
 
