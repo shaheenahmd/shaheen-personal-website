@@ -552,6 +552,9 @@ footer .quick-links a{
     .row p{
         font-size: 0.9rem;
     }
+    .rows img {
+        height: 230px;
+    }
     footer .quick-links a{
       font-size: 0.8rem;
     }
