@@ -558,6 +558,23 @@ footer .quick-links a{
     footer .quick-links a{
       font-size: 0.8rem;
     }
+
+    .rows .layer h5{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    .rows .layer p{
+        font-size: var(--p-font);
+    }
+    .rows .layer a{
+        height: 35px;
+        width: 35px;
+        font-size: 1.2rem;
+        margin-top: 15px;
+       
+        
+    }
     }
 
 
