@@ -531,8 +531,12 @@ footer .quick-links a{
         --p-font:1rem
         
     }
-    .home-text p{
-        font-size: 1.8rem;
+    .home-text h1 {
+        font-size: 3rem;
+       
+    }
+    .home h3,.input{
+        font-size: 1.5rem;
     }
     .about-text{
         text-align: center;
