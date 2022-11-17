@@ -10,9 +10,9 @@ window.onscroll =()=>{
 
 
 
-// var typed = new Typed(".input",{
-//     strings:["Fullstack Developer", "Designer", "Freelancer"],
-//     typeSpeed:120,
-//     backSpeed:110,
-//     loop:true
-// })
+var typed = new Typed(".input",{
+    strings:["Shaheen.","Fullstack Developer.","Designer."],
+    typeSpeed:70,
+    backSpeed:60,
+    loop:true
+})

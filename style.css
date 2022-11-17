@@ -95,6 +95,7 @@ header .social i{
     align-items: center;
     padding-top: 150px;
     z-index: 0;
+    position: static;
     /* background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);; */
 
    
@@ -103,6 +104,7 @@ header .social i{
     max-width: 100%;
     width: 530px;
     height: auto;
+    position: static;
    
 }
 .home-text h5{
@@ -184,15 +186,17 @@ color: var(--text-color);
     justify-content: center;
     
 }
-.about span{
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 15px;
-    color: var(--hover);
+.about .heading{
+    text-align: center;
+}
+.about-text span{
+  color: #ffa200;
+  font-weight: 600;
 }
 .about h2{
     font-size: var(--h2-font);
     text-transform: capitalize;
+    margin-top:15px;
     margin-bottom: 10px;
 }
 .about p{
@@ -231,11 +235,12 @@ color: var(--text-color);
 
 .service-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
     gap: 3rem;
     align-items: center;
     margin-top: 4rem;
     text-align: center;
+   
 }
 .row{
     padding: 30px 30px;
@@ -263,13 +268,24 @@ color: var(--text-color);
 .row p{
     color: #717171;
     line-height: 30px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
+
+
 .row:hover{
-    transform: scale(1.05);
-    border-bottom: 5px solid var(--hover);
+    transform: scale(1.08);
+    /* border-bottom: 5px solid var(--hover); */
     transition: 0.4s ease;
-    box-shadow: 0 0 0 1;
+    /* box-shadow: 0 0 0 1; */
+    background-color: #ffa200;
+    color: #fff;
+    
+    -webkit-box-shadow: 2px 4px 17px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 17px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 17px -7px rgba(0,0,0,0.75);
+}
+.row:hover p{
+    color: #fff;
 }
 
 
@@ -370,7 +386,7 @@ footer {
    padding-top: 50px 0;
    height: 180px;
    width: 100%;
-   background-color:var(--text-color);
+   background-color:var(--hover);
    color: #fff;
    display: flex;
    flex-direction: column;
