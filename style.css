@@ -301,7 +301,9 @@ color: var(--text-color);
 
 
 /* portfolio section--------------------------------------- */
-
+.portfolio{
+    padding-bottom: 150px;
+}
 .portfolio .heading{
     text-align: center;
 
@@ -392,40 +394,54 @@ color: var(--text-color);
 
 
 /* footer------------------------------- */
-footer {
-   margin-top:100px ;
-   padding-top: 50px 0;
-   height: 180px;
-   width: 100%;
-   background-color:var(--hover);
-   color: #fff;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   gap: 1.3rem;
+.footer{
+    padding: 30px 15%;
+    background-color: #ffa200;
+
 }
-footer .social-links i{
-    font-size: 1.5rem;
-    padding-right: 1rem;
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+.footer .social a{
     color: #fff;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
     border-radius: 50%;
-    transform: translateY(1.5);
+    line-height: 38px;
+    display: inline-block;
+    margin: 0 8px;
+
 }
-footer .navlist li a{
-    color: #fff;
+.footer .social a:hover{
+    background-color: #d86807;
 }
-footer .copy{
-    font-size: 13px;
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
 }
-footer .quick-links{
-    display: flex;
-    
+.footer ul li {
+    padding: 0 15px;
+    display: inline-block;
 }
-footer .quick-links a{
-    color: #fff;
-    margin-left: 20px;
+.footer ul li a{
+    color: inherit;
 }
+.footer .copy{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+
+
 
 
 
@@ -504,23 +520,7 @@ footer .quick-links a{
         grid-template-columns: repeat(1, 1fr);
        
     }
-    footer{
-        height: 200px;
-        padding: 0rem 10%;
-        margin-top: 5rem;
-        margin-left: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-  
-    footer .social-links i{
-        font-size: 1.5rem;    
-    }
-    .logo img {
-        height: 1.6rem;
-        color: var(--main-color);
-    }
+    
 }
 
 @media (max-width:600px){
@@ -555,9 +555,7 @@ footer .quick-links a{
     .rows img {
         height: 230px;
     }
-    footer .quick-links a{
-      font-size: 0.8rem;
-    }
+    
 
     .rows .layer h5{
         font-size: 18px;
@@ -572,9 +570,11 @@ footer .quick-links a{
         width: 35px;
         font-size: 1rem;
         margin-top: 12px;
+        display: flex;
        
         
     }
+
     }
 
 
