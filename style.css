@@ -560,7 +560,7 @@ footer .quick-links a{
     }
 
     .rows .layer h5{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 5px;
     }
@@ -570,8 +570,8 @@ footer .quick-links a{
     .rows .layer a{
         height: 35px;
         width: 35px;
-        font-size: 1.2rem;
-        margin-top: 15px;
+        font-size: 1rem;
+        margin-top: 12px;
        
         
     }
