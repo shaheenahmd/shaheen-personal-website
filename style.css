@@ -559,13 +559,10 @@ color: var(--text-color);
 
     .skills-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(100px,auto));
+        grid-template-columns: repeat(auto-fit,minmax(150px,auto));
         column-gap: 2rem;
         row-gap: 3rem;
         margin-top: 80px;
-    }
-    .skilly .text h3{
-        font-size: 1rem;
     }
 
     .row h3{
