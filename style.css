@@ -34,6 +34,18 @@ body{
 }
 
 
+/* preloader----------------------- */
+#preloader{
+    width: 100%;
+    height: 100vh;
+   background: #fff url(images/preloader/preloader.gif) no-repeat center center;
+    background-size: 8%;
+
+    position: fixed;
+    z-index:10000;
+}
+
+/* header section -----------------------------*/
 header{
     width: 100%;
     position: fixed;
@@ -229,7 +241,13 @@ color: var(--text-color);
     background-color: whitesmoke;
     padding: 20px 20px;
     border-radius: 10px;
+  
 }
+.skilly:hover{
+    transform: translateY(-20px);
+    transition: 0.4s ease;
+}
+
 .skills-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(180px,auto));
@@ -278,7 +296,7 @@ color: var(--text-color);
     font-size: 2rem;
     background-color: #ffa200;
     padding: 10px;
-   border-radius: 5px;
+    border-radius: 5px;
    
 }
 .row h3{
@@ -295,10 +313,9 @@ color: var(--text-color);
 
 
 .row:hover{
-    transform: scale(1.08);
     /* border-bottom: 5px solid var(--hover); */
-    transition: 0.4s ease;
-    /* box-shadow: 0 0 0 1; */
+    transform: translateY(-30px);
+    transition: 0.4s ease-in;
     background-color: #ffa200;
     color: #fff;
     
@@ -564,6 +581,7 @@ color: var(--text-color);
         row-gap: 3rem;
         margin-top: 80px;
     }
+   
 
     .row h3{
         font-size: 1.2rem;
@@ -592,6 +610,30 @@ color: var(--text-color);
         display: flex;
        
         
+    }
+    .footer{
+        text-align: left;
+    }
+
+    .footer .social a{
+        font-size: 30px;
+        display: inline-block;
+        margin: 10px 8px;
+        border: none;
+        margin-bottom: 0px;
+        text-align: left;
+    
+    }
+    .footer ul li {
+        font-size: 1.2rem;
+        margin: 5px 0;
+        
+      
+    }
+    .footer ul {
+        text-align: left;
+        display: inline-block;
+      
     }
 
     }

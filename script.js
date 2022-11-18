@@ -1,3 +1,4 @@
+// menu button-----------------------------
 let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
 
@@ -9,10 +10,17 @@ window.onscroll =()=>{
 };
 
 
-
+// typed text-----------------------------
 var typed = new Typed(".input",{
-    strings:["Fullstack Developer.","Designer.","Freelancer."],
+    strings:["Fullstack Developer.","Software Developer","Designer.","Freelancer."],
     typeSpeed:70,
     backSpeed:60,
     loop:true
+})
+
+
+// preloader-----------------------------
+var loader= document.getElementById("preloader");
+window.addEventListener("load" ,function(){
+    loader.style.display="none"
 })
