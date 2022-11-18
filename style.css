@@ -195,6 +195,7 @@ color: var(--text-color);
     grid-gap: 5rem;
     align-items: center;
     justify-content: center;
+    text-align: center;
     
 }
 .about .heading{
@@ -221,10 +222,20 @@ color: var(--text-color);
 }
 
 /* skills ----------------------------------*/
-.skills h2{
+.skills{
     text-align: center;
-    font-size: var(--h2-font);
-    
+}
+.skilly{
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    column-gap: 2rem;
+    row-gap: 5rem;
+    margin-top: 80px;
 }
 
 
@@ -544,6 +555,14 @@ color: var(--text-color);
     .about span {
         margin-bottom: 5px;
  
+    }
+
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+        column-gap: 2rem;
+        row-gap: 3rem;
+        margin-top: 80px;
     }
 
     .row h3{
