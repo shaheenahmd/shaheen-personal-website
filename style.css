@@ -450,7 +450,7 @@ color: var(--text-color);
 .footer ul{
     margin-top: 0;
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 0;
     text-align: center;
@@ -468,7 +468,7 @@ color: var(--text-color);
 .footer .copy{
     text-align: center;
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 13px;
     color: #a3a0a0;
 }
 
@@ -570,6 +570,13 @@ color: var(--text-color);
     .home h3,.input{
         font-size: 1.5rem;
     }
+
+    .home-text .btn {
+        padding: 5px 15px;
+        font-size: 0.8rem;
+        font-weight: 700px;
+    }
+
     .about-text{
         text-align: center;
     }
