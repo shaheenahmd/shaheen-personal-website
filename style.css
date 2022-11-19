@@ -153,13 +153,14 @@ color: var(--text-color);
     border: none;
     border-radius: 30px;
     font-size: 1rem;
-    font-weight: 500px;
+    font-weight: 600px;
+    color: #fff;
     line-height: 24px;
     cursor: pointer;
    
 }
 .home-text .btn:hover{
-    background:#d86807;
+    background:#df5606;
     color: #fff;
     transition: .4s ease;
 
@@ -434,10 +435,10 @@ color: var(--text-color);
 }
 .footer .social a{
     color: #fff;
-    font-size: 24px;
+    font-size: 25px;
     height: 40px;
     width: 40px;
-    border: 1px solid #fff;
+    /* border: 1px solid #ffa200; */
     border-radius: 50%;
     line-height: 38px;
     display: inline-block;
@@ -445,7 +446,11 @@ color: var(--text-color);
 
 }
 .footer .social a:hover{
-    background-color: #d86807;
+    /* background-color: #d86807; */
+    color: #ffa200;
+    transform: translateY(-15px);
+    transition: 0.4s ease;
+   
 }
 .footer ul{
     margin-top: 0;

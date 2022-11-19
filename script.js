@@ -12,7 +12,7 @@ window.onscroll =()=>{
 
 // typed text-----------------------------
 var typed = new Typed(".input",{
-    strings:["Fullstack Developer.","Software Developer","Designer."],
+    strings:["Fullstack Developer.","Designer."],
     typeSpeed:70,
     backSpeed:60,
     loop:true
