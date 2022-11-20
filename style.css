@@ -18,7 +18,8 @@ section{
     --main-color:#033a80;
     --bg-color:#fff;
     --text-color:#0f0c27;
-    --hover:#ffa200;
+    /* --hover:#ffa200; */
+    --hover:#ffba08;
 
     --big-font:3.6rem;
     --h2-font:2.26rem;
@@ -146,21 +147,22 @@ color: var(--text-color);
 } 
 
 .home-text .btn{
-    background: #ffa200;
-    color: var(--text-color);
+    /* background: #ffa200; */
+    background: var(--hover);
+    /* color: var(--text-color); */
     outline: none;
     padding: 8px 20px;
     border: none;
     border-radius: 30px;
     font-size: 1rem;
     font-weight: 600px;
-    color: #fff;
+    color: #000;
     line-height: 24px;
     cursor: pointer;
    
 }
 .home-text .btn:hover{
-    background:#df5606;
+    background:#ffa200;
     color: #fff;
     transition: .4s ease;
 
@@ -182,7 +184,7 @@ color: var(--text-color);
 }
   
 .home .social a:hover{
-    background-color: #ffa200;
+    background-color: var(--hover);
     transition: .3s ease;
 }
 
@@ -215,7 +217,7 @@ color: var(--text-color);
     text-align: center;
 }
 .about-text span{
-  color: #ffa200;
+  color: var(--hover);
   font-weight: 600;
 }
 .about h2{
@@ -295,7 +297,7 @@ color: var(--text-color);
 .row i{
     margin-bottom: 15px;
     font-size: 2rem;
-    background-color: #ffa200;
+    background-color: var(--hover);
     padding: 10px;
     border-radius: 5px;
    
@@ -317,7 +319,8 @@ color: var(--text-color);
     /* border-bottom: 5px solid var(--hover); */
     transform: translateY(-30px);
     transition: 0.4s ease-in;
-    background-color: #ffa200;
+    /* background-color: #ffa200; */
+    background-color: var(--hover);
     color: #fff;
     
     -webkit-box-shadow: 2px 4px 17px -7px rgba(0,0,0,0.75);
@@ -398,7 +401,7 @@ color: var(--text-color);
     font-size: var(--p-font);
 }
 .rows .layer a{
-    color: #ffa200;
+    color: var(--hover);
     background-color: #fff;
     /* padding: 2px 8px; */
     height: 40px;
@@ -447,7 +450,7 @@ color: var(--text-color);
 }
 .footer .social a:hover{
     /* background-color: #d86807; */
-    color: #ffa200;
+    color: var(--hover);
     transform: translateY(-15px);
     transition: 0.4s ease;
    
@@ -468,7 +471,7 @@ color: var(--text-color);
     color: #fff;
 }
 .footer ul li a:hover{
-    color: #ffa200;
+    color: var(--hover);
 }
 .footer .copy{
     text-align: center;
