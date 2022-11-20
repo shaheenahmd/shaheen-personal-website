@@ -19,7 +19,8 @@ section{
     --bg-color:#fff;
     --text-color:#0f0c27;
     /* --hover:#ffa200; */
-    --hover:#ffba08;
+    /* --hover:#ffba08; */
+     --hover:#ffb700; 
 
     --big-font:3.6rem;
     --h2-font:2.26rem;
