@@ -120,6 +120,7 @@ header .social i{
     width: 530px;
     height: auto;
     position: static;
+    border-radius: 5px;
    
 }
 .home-text h5{
