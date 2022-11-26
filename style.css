@@ -32,7 +32,7 @@ section{
 
 body{
     background-color: #fff;
-    /* background: hsla(186, 33%, 94%, 1); */
+    
 }
 
 
@@ -40,9 +40,8 @@ body{
 #preloader{
     width: 100%;
     height: 100vh;
-   background: #fff url(images/preloader/preloader.gif) no-repeat center center;
-    background-size: 8%;
-
+    background: #fff url(images/preloader/preloader.gif) no-repeat center center;
+    background-size: 9%;
     position: fixed;
     z-index:10000;
 }
@@ -62,9 +61,7 @@ header{
     background-color:whitesmoke ;
    
 }
-header .social{
-    display: none;
-}
+
 
 .logo img{
     height: 2rem;
@@ -73,7 +70,6 @@ header .social{
 
 .navlist{
     display: flex;
-   
 }
 .navlist a{
     color: var(--text-color);
@@ -89,11 +85,6 @@ header .social{
     font-size: 2rem;
     cursor: pointer;
     display: none;
-}
-header .social i{
-    font-size: 1.2rem;
-    color: var(--text-color);
-   padding-left: 1rem;
 }
 
 
@@ -367,6 +358,7 @@ color: var(--text-color);
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    border: 0.1px solid #aeaeae;
   
   
 }
@@ -380,7 +372,7 @@ color: var(--text-color);
 .rows .layer{
    width: 100%;
    height: 0%;
-   background: linear-gradient(rgba(0,0,0,0.8),#717171);
+   background: linear-gradient(rgba(0,0,0,0.5),#717171);
    position: absolute;
    left: 0;
    bottom: 0;
