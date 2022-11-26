@@ -40,8 +40,8 @@ body{
 #preloader{
     width: 100%;
     height: 100vh;
-    background: #fff url(images/preloader/preloader.gif) no-repeat center center;
-    background-size: 9%;
+    background: #fff url(images/preloader/1493.gif) no-repeat center center;
+    background-size: 5%;
     position: fixed;
     z-index:10000;
 }
