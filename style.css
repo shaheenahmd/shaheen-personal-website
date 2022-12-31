@@ -21,6 +21,8 @@ section{
     /* --hover:#ffa200; */
     /* --hover:#ffba08; */
      --hover:#ffb700; 
+    
+
 
     --big-font:3.6rem;
     --h2-font:2.26rem;
@@ -272,7 +274,7 @@ color: var(--text-color);
 
 .service-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     gap: 3rem;
     align-items: center;
     margin-top: 4rem;
@@ -282,6 +284,7 @@ color: var(--text-color);
 .row{
     padding: 30px 30px;
     background:whitesmoke;
+    height: 20px;
     border-radius: 10px;
     cursor: pointer;
     border-bottom: 2px solid transparent;
@@ -297,13 +300,13 @@ color: var(--text-color);
    
 }
 .row h3{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom: 18px;
     font-weight: 500;
     color: var(--text-color);
 }
 .row p{
-    color: #717171;
+    color: #6a6969;
     line-height: 30px;
     font-size: 1rem;
 }
@@ -345,7 +348,7 @@ color: var(--text-color);
 }
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     grid-gap: 4rem;
     align-items: center;
     justify-content: center;
@@ -359,7 +362,7 @@ color: var(--text-color);
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    border: 0.1px solid #aeaeae;
+    border: 0.1px solid #c3c2c2;
   
   
 }
